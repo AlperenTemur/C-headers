@@ -1,3 +1,5 @@
+#ifndef GETCHH
+#define GETCHH
 #ifdef __unix__
 
 #include <stdio.h>
@@ -22,4 +24,5 @@ int getch ( void )
 
 #include <conio.h>
 
+#endif
 #endif
