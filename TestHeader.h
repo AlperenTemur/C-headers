@@ -1,3 +1,5 @@
+#ifndef _TESTHADER
+#define _TESTHADER
 #include <stdio.h>
 #include <conio.h>
 
@@ -27,4 +29,5 @@
 #else
 #define _P(x) ((void)0)
 #define _D(x) ((void)0)
+#endif
 #endif
